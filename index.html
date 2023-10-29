@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Taller Responsive Design</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="barra-navegacion">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="mi-contenido">Lorem ipsum...</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuResponsive">
+            <form class="d-flex d-md-none d-sm-none">
+              <input class="form-control me-2 d-md-none d-sm-none" type="search" placeholder="Buscar" aria-label="Buscar">
+          </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="mi-contenido">Dolor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="color">Sit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="color">Amet</a>
+              </li>
+              <div class="collapse navbar-collapse justify-content-end" id="menuResponsive">
+              <li class="nav-item dropdown d-md-none d-sm-none ">
+                <a class="nav-link dropdown-toggle d-md-none d-sm-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="color">
+                  Opciones
+                </a>
+                <ul class="dropdown-menu d-md-none d-sm-none"> 
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 1</a></li>
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 2</a></li>
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 3</a></li>
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 4</a></li>
+                </ul>
+              </li>
+              </div>
+            </ul>
+          </div>
+          <form class="d-flex">
+              <input class="form-control me-2 d-lg-block d-none" type="search" placeholder="Buscar" aria-label="Buscar">
+          </form>
+        </div>
+      </nav>
+    <h3 id="title">Lorem ipsum...</h3>
+    <div id="mi-carrusel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"> 
+        <div class="carousel-inner" id="subtitle"> 
+          <div class="carousel-item active">
+            <h4>Lorem ipsum dolor sit, amet.</h4>
+          </div>
+          <div class="carousel-item">
+            <h4>Consectetur, adipiscing elit pulvinar.</h4>
+          </div>
+          <div class="carousel-item">
+            <h4>elit et egestas parturient</h4>
+          </div>
+        </div>
+    </div>
+
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-3 d-lg-block d-none" id="opciones"> 
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Opción 1</a></li>
+            <li class="list-group-item"><a href="#">Opción 2</a></li>
+            <li class="list-group-item"><a href="#">Opción 3</a></li>
+            <li class="list-group-item"><a href="#">Opción 4</a></li>
+          </ul>
+        </div>
+        
+        <div class="col">Lorem ipsum dolor sit amet consectetur adipiscing elit pretium magnis velit, nisl natoque nisi justo convallis dictum parturient conubia faucibus, suspendisse donec auctor orci sollicitudin condimentum cum nullam id. Hac nibh mauris euismod sociosqu purus ullamcorper tempor porttitor venenatis, nunc rutrum bibendum mi laoreet nostra dui tincidunt, aliquet enim viverra tristique hendrerit fermentum sodales mus. Interdum vivamus eget leo vitae platea tellus consequat lacinia sagittis varius, per neque morbi cursus montes placerat imperdiet sed.</div>
+        <div class="col">Erat cum accumsan pellentesque morbi quisque risus, auctor dui potenti cras aptent cubilia ultrices, nibh integer penatibus lobortis interdum. Dis velit non sodales tempor turpis sociis netus nibh justo varius etiam penatibus, ante facilisi curae mollis lacinia vitae risus purus massa urna luctus ornare, tempus ridiculus praesent ligula at egestas aliquet in dapibus felis congue. Nisi nam enim nostra turpis justo porta nisl, cubilia lacus donec auctor vulputate at placerat, gravida risus dui nibh curabitur mus. Placerat tempor ullamcorper turpis eleifend inceptos potenti quisque nascetur, accumsan consequat felis eget himenaeos dis aliquet natoque lacinia, senectus odio gravida eros a suscipit volutpat.</div>
+        <div class="col">Lorem ipsum dolor sit amet consectetur, adipiscing elit et per commodo, gravida ornare pharetra risus. Non dictum penatibus nam viverra parturient dapibus semper id nascetur, justo platea natoque blandit litora sagittis ligula habitant, vestibulum magna montes imperdiet tristique lacinia fermentum duis. Sociosqu etiam tellus cursus maecenas eleifend taciti interdum est enim fringilla, nisi felis vivamus sapien integer egestas hac at.</div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
